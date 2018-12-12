@@ -11,6 +11,7 @@
 		B40455AD21C183D500EDC72C /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */; };
 		B40455AF21C1853500EDC72C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455AE21C1853500EDC72C /* CoreDataStack.swift */; };
 		B40455B321C1898700EDC72C /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455B221C1898700EDC72C /* Song+Convenience.swift */; };
+		B40455B621C18FB600EDC72C /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455B521C18FB600EDC72C /* PlaylistController.swift */; };
 		FB80E2F521C14D20003C7951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E2F421C14D20003C7951 /* AppDelegate.swift */; };
 		FB80E2FA21C14D20003C7951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2F821C14D20003C7951 /* Main.storyboard */; };
 		FB80E2FC21C14D21003C7951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2FB21C14D21003C7951 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		B40455AE21C1853500EDC72C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		B40455B221C1898700EDC72C /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		B40455B521C18FB600EDC72C /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 		FB80E2F121C14D20003C7951 /* PlaylistCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB80E2F421C14D20003C7951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB80E2F921C14D20003C7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,13 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B40455B421C18F4200EDC72C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B40455B221C1898700EDC72C /* Song+Convenience.swift */,
+				B40455AE21C1853500EDC72C /* CoreDataStack.swift */,
+				B40455A921C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld */,
+				B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FB80E2E821C14D20003C7951 = {
 			isa = PBXGroup;
 			children = (
-				B40455A921C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld */,
-				B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */,
-				B40455AE21C1853500EDC72C /* CoreDataStack.swift */,
-				B40455B221C1898700EDC72C /* Song+Convenience.swift */,
+				B40455B521C18FB600EDC72C /* PlaylistController.swift */,
+				B40455B421C18F4200EDC72C /* Model */,
+				FB80E30A21C15145003C7951 /* View Controllers */,
 				FB80E2F321C14D20003C7951 /* PlaylistCoreData */,
 				FB80E2F221C14D20003C7951 /* Products */,
 			);
@@ -68,7 +80,6 @@
 		FB80E2F321C14D20003C7951 /* PlaylistCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				FB80E30A21C15145003C7951 /* View Controllers */,
 				FB80E30C21C15169003C7951 /* Storyboards */,
 				FB80E30B21C1515D003C7951 /* Source Files */,
 			);
@@ -175,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB80E30921C1503C003C7951 /* SongsTableViewController.swift in Sources */,
+				B40455B621C18FB600EDC72C /* PlaylistController.swift in Sources */,
 				B40455AD21C183D500EDC72C /* Playlist+Convenience.swift in Sources */,
 				FB80E2F521C14D20003C7951 /* AppDelegate.swift in Sources */,
 				B40455AF21C1853500EDC72C /* CoreDataStack.swift in Sources */,
