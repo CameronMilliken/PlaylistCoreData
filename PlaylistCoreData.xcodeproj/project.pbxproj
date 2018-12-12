@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40455AB21C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B40455A921C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld */; };
+		B40455AD21C183D500EDC72C /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */; };
+		B40455AF21C1853500EDC72C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455AE21C1853500EDC72C /* CoreDataStack.swift */; };
+		B40455B321C1898700EDC72C /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40455B221C1898700EDC72C /* Song+Convenience.swift */; };
 		FB80E2F521C14D20003C7951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80E2F421C14D20003C7951 /* AppDelegate.swift */; };
 		FB80E2FA21C14D20003C7951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2F821C14D20003C7951 /* Main.storyboard */; };
 		FB80E2FC21C14D21003C7951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB80E2FB21C14D21003C7951 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B40455AA21C17EF700EDC72C /* PlaylistCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
+		B40455AE21C1853500EDC72C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B40455B221C1898700EDC72C /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		FB80E2F121C14D20003C7951 /* PlaylistCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB80E2F421C14D20003C7951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB80E2F921C14D20003C7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		FB80E2E821C14D20003C7951 = {
 			isa = PBXGroup;
 			children = (
+				B40455A921C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld */,
+				B40455AC21C183D500EDC72C /* Playlist+Convenience.swift */,
+				B40455AE21C1853500EDC72C /* CoreDataStack.swift */,
+				B40455B221C1898700EDC72C /* Song+Convenience.swift */,
 				FB80E2F321C14D20003C7951 /* PlaylistCoreData */,
 				FB80E2F221C14D20003C7951 /* Products */,
 			);
@@ -163,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB80E30921C1503C003C7951 /* SongsTableViewController.swift in Sources */,
+				B40455AD21C183D500EDC72C /* Playlist+Convenience.swift in Sources */,
 				FB80E2F521C14D20003C7951 /* AppDelegate.swift in Sources */,
+				B40455AF21C1853500EDC72C /* CoreDataStack.swift in Sources */,
+				B40455AB21C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld in Sources */,
 				FB80E30721C1501A003C7951 /* PlaylistTableViewController.swift in Sources */,
+				B40455B321C1898700EDC72C /* Song+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B40455A921C17EF700EDC72C /* PlaylistCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B40455AA21C17EF700EDC72C /* PlaylistCoreData.xcdatamodel */,
+			);
+			currentVersion = B40455AA21C17EF700EDC72C /* PlaylistCoreData.xcdatamodel */;
+			path = PlaylistCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FB80E2E921C14D20003C7951 /* Project object */;
 }
